@@ -1,0 +1,42 @@
+body {
+  color: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form-wrapper {
+  min-width: 50%;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.form-label {
+  padding: 0.25rem 0;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.form-error {
+  padding-top: 5px;
+  color: red;
+}
+.form-button {
+  text-align: right;
+  width: 100%;
+}
